@@ -1,0 +1,40 @@
+.header-image-size {
+    height: 496px;
+    position: relative;
+}
+
+.header-image-pos {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+
+.list-group-item {
+    &.active {
+        color: $green;
+        background-color: $lighter;
+        border-color: $lighter;
+    }
+    &.action{
+        color: $green !important;
+        background-color: $lighter !important;
+    }
+}
+
+.text-list {
+    letter-spacing: 1px;
+}
+
+.page-link {
+    &.active{
+        z-index: 2;
+        color: $white !important;
+        background-color: $green;
+    }
+    &.hover{
+        z-index: -2;
+        color: $white !important;
+        background-color: $green;
+    }
+}
+
