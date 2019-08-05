@@ -1,0 +1,15 @@
+{
+    "repository": {
+      "type": "git",
+      "url": "https://tangquanchain.github.io/gymyang/"
+    },
+    "author": "Yang",
+    "license": "CSS",
+    "bugs": {
+      "url": "https://github.com/Tangquanchain/gymyang/tree/master/stylesheets"
+    },
+    "homepage": "https://github.com/Tangquanchain/gymyang/tree/master/node_modules/bootstrap",
+    "dependencies": {
+      "bootstrap": "^4.3.1"
+    }
+  }
